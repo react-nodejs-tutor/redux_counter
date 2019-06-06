@@ -16,15 +16,15 @@ const WaitingItem = ({ text, entered, onEnter, onLeave }) => {
 const WaitingList = ({ waitingList, onEnter, onLeave }) => {
 	return (
 		<div className="WaitingList">
-			<h2>대기자 명단</h2>
+			<h2>대기자</h2>
 			<form>
 				<input />
 				<button>등록</button>
 			</form>
 			<ul>
-				<WaitingItem text="홍길동" entered />
-				<WaitingItem text="콩쥐" />
-				<WaitingItem text="팥쥐" />
+				<WaitingItem text="1번 손님" entered />
+				<WaitingItem text="2번 손님" />
+				<WaitingItem text="3번 손님" />
 			</ul>
 		</div>
 	);
